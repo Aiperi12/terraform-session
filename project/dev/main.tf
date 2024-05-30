@@ -21,5 +21,6 @@ module "sg" {
 
 
 ## How to reference to module?
-## Syntax: module.module_name.output_value 
+## Syntax: module.module_name.output_name
+
   

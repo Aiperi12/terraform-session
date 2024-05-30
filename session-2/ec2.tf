@@ -10,7 +10,9 @@ resource "aws_instance" "web" {
 #  There 2 main blocks in Terraform
 #  1. Resource block = create and manage resources (AWS serivces or infrastructure)
 #     - Resource block expects 2 labels
-#  2. Data source block = 
+#  2. Data source block = Data Sources fetch the data from Pre-existing resources
+#     Data source will fetch AMI ID from Pre-existing AMI
+#     - Syntax: data "first_label" "second_label"
 
 // Syntax:
 // resource = block 
